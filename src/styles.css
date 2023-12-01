@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Weather container styles */
+.weather-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Weather header styles */
+  .weather-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .city-heading {
+    margin: 0;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 165, 0); /* Change color to orange */
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'] {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: orange; /* Change background color to orange */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkorange; /* Change hover background color to darkorange */
+  }
+  
+  /* Weather table styles */
+  .weather-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .weather-table td, .weather-table th {
+    padding: 10px;
+    border: 1px solid orange; /* Add border and change color to orange */
+    text-align: center;
+  }
+  
+  .weather-table th {
+    background-color: orange; /* Change header background color to orange */
+    color: white;
+  }
+  
+  .weather-table h3 {
+    margin-top: 0;
+  }
+  /* styles.css */
+
+/* ... (Previous styles remain unchanged) */
+
+.inner-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .inner-table td {
+    padding: 5px 10px;
+    border: 1px solid orange;
+    text-align: center;
+  }
+  
+  
+  
